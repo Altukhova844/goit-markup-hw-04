@@ -422,9 +422,10 @@ img {
   fill: currentColor;
 }
 
-.worker-social-link:hover {
+.worker-social-link:hover,
+.worker-social-link:focus {
   background-color: var(--accent-color);
-  fill: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 /* Regular customers */
@@ -470,14 +471,13 @@ img {
   justify-content: center;
   align-items: center;
 
-  padding: 0;
   fill: currentColor;
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--accent-color);
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Footer */
@@ -539,7 +539,7 @@ address {
 .footer-flex .item:first-child {
   margin-right: 70px;
 }
-/* какая-то херь со шрифтом ? */
+
 .join-us-box .title {
   font-style: normal;
   font-weight: bold;
