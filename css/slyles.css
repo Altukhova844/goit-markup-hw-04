@@ -406,6 +406,7 @@ img {
   height: 44px;
 
   border-radius: 50%;
+  color: #afb1b8;
 }
 
 .icon-w-social {
@@ -418,7 +419,7 @@ img {
   width: 20px;
   height: 20px;
 
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .worker-social-link:hover {
@@ -441,8 +442,6 @@ img {
 }
 
 .customers-box {
-  outline: 1px solid tomato;
-
   padding: 0;
   display: flex;
   justify-content: center;
@@ -462,13 +461,17 @@ img {
   align-items: center;
 
   border: 5px solid #afb1b8;
-  box-sizing: border-box;
+  color: #afb1b8;
   border-radius: 4px;
 }
 
-.icon-client svg {
+.icon-client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   padding: 0;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .customers-link:hover,
@@ -538,7 +541,14 @@ address {
 }
 /* какая-то херь со шрифтом ? */
 .join-us-box .title {
-  padding-top: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  padding-top: 12px;
   margin-bottom: 20px;
   color: var(--primary-white-color);
   text-transform: uppercase;
@@ -565,6 +575,7 @@ address {
   height: 44px;
 
   border-radius: 50%;
+  color: #afb1b8;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -575,10 +586,7 @@ address {
 
   padding: 0;
 
-  width: 20px;
-  height: 20px;
-
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .footer-social-link:hover {
